@@ -1,9 +1,9 @@
 // subset of bootstrap variables
-$brand-primary: #2d40cc; // ultramarine
+$brand-primary: lighten(#d60456, 3%); // purpur
 
-$brand-secondary: #90efe4 !default; // terquoise
+$brand-secondary: $brand-primary !default; // purpur
 
-$brand-tertiary: #008dc5 !default; // prussian blue
+$brand-tertiary: $brand-primary !default; // prussian blue
 
 /* Don't use variables but hex-values here as they should not be overwritten on organisation pages */
 $brand-success: #a3ef90 !default;
@@ -42,7 +42,7 @@ $print-link: #005cb4 !default;
 
 $brand-primary-tint: lighten($brand-primary, 47%) !default;
 $brand-secondary-tint: lighten($brand-secondary, 20%) !default;
-$brand-tertiary-tint: lighten($brand-tertiary, 55%) !default;
+$brand-tertiary-tint: lighten($brand-tertiary, 50%) !default;
 
 $bg-light: #f7f7f7;
 $bg-tertiary: $brand-tertiary-tint !default;
