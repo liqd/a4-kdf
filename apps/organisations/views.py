@@ -132,7 +132,6 @@ class DashboardLegalInformationUpdateView(
 class DashboardCommunicationProjectChoiceView(
     a4dashboard_mixins.DashboardBaseMixin, generic.FormView
 ):
-
     menu_item = "communication"
     form_class = forms.CommunicationProjectChoiceForm
     permission_required = "a4_candy_organisations.change_organisation"
@@ -178,7 +177,6 @@ class DashboardCommunicationProjectChoiceView(
 class DashboardCommunicationContentCreateView(
     a4dashboard_mixins.DashboardBaseMixin, generic.FormView
 ):
-
     menu_item = "communication"
     form_class = forms.CommunicationContentCreationForm
     permission_required = "a4_candy_organisations.change_organisation"
@@ -273,14 +271,14 @@ class DashboardCommunicationContentCreateView(
         font = ImageFont.truetype(
             os.path.join(
                 settings.BASE_DIR,
-                "adhocracy-plus/assets/fonts/SourceSansPro-Semibold.otf",
+                "adhocracy-plus/assets/fonts/Cabin-SemiBold.woff2",
             ),
             sharepic_format["title_size"],
         )
         fontsm = ImageFont.truetype(
             os.path.join(
                 settings.BASE_DIR,
-                "adhocracy-plus/assets/fonts/SourceSansPro-Regular.otf",
+                "adhocracy-plus/assets/fonts/Cabin-Regular.woff2",
             ),
             sharepic_format["description_size"],
         )
