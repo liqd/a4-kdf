@@ -16,6 +16,12 @@
 
 .footer__description {
     font-family: $font-family-serif;
+
+    img {
+        vertical-align: bottom;
+        width: 2rem;
+        height: 1.5rem;
+    }
 }
 
 .footer__no-banner > .row {
