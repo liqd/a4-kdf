@@ -12,6 +12,10 @@
 .navi__item {
     display: block;
 
+    a {
+        color: $body-bg;
+    }
+
     @media screen and (min-width: $breakpoint) {
         display: inline-block;
     }

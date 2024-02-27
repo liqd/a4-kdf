@@ -16,6 +16,12 @@ $ribbon-margin: 10px;
         display: inline-block;
         vertical-align: middle;
     }
+
+    // Enhance contrast for dropdown links and buttons on pink background.
+    a, 
+    button {
+        color: $body-bg;
+    }
 }
 
 .userindicator__btn-img {
@@ -76,3 +82,4 @@ $ribbon-margin: 10px;
         }
     }
 }
+

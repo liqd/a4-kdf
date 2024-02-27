@@ -78,7 +78,7 @@
 }
 
 .btn.btn--secondary-filled {
-    @include button-bg($brand-secondary, $brand-secondary, $print-black, 10%);
+    @include button-bg($brand-secondary, $brand-secondary, $body-bg, 10%);
 }
 
 .btn.btn--bg-tertiary {
