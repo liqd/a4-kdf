@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-21 16:26+0100\n"
+"POT-Creation-Date: 2024-03-12 09:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5144,11 +5144,12 @@ msgid "%(platformname)s is a participation platform operated by"
 msgstr ""
 
 #: adhocracy-plus/templates/footer.html:10
-#, python-format
 msgid ""
-"<a href=\"/\">%(platformname)s</a> is a platform provided by <a "
-"href=\"https://liqd.net/de/\">Liquid Democracy e.V.</a> in Berlin."
+" is a platform provided by <a href=\"https://liqd.net/de/\">Liquid Democracy "
+"e.V.</a> in Berlin."
 msgstr ""
+" is een platform gemaakt door <a href=\"https://liqd.net/de/\">Liquid "
+"Democracy e.V.</a> in Berlin."
 
 #: adhocracy-plus/templates/footer.html:10
 msgid ""
